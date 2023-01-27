@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/game-stopwatch/static/css/main.13c524c8.css",
-    "main.js": "/game-stopwatch/static/js/main.fe381165.js",
+    "main.css": "/game-stopwatch/static/css/main.57717dcf.css",
+    "main.js": "/game-stopwatch/static/js/main.ceb056ab.js",
     "static/js/787.dd25abc3.chunk.js": "/game-stopwatch/static/js/787.dd25abc3.chunk.js",
     "index.html": "/game-stopwatch/index.html",
-    "main.13c524c8.css.map": "/game-stopwatch/static/css/main.13c524c8.css.map",
-    "main.fe381165.js.map": "/game-stopwatch/static/js/main.fe381165.js.map",
+    "main.57717dcf.css.map": "/game-stopwatch/static/css/main.57717dcf.css.map",
+    "main.ceb056ab.js.map": "/game-stopwatch/static/js/main.ceb056ab.js.map",
     "787.dd25abc3.chunk.js.map": "/game-stopwatch/static/js/787.dd25abc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13c524c8.css",
-    "static/js/main.fe381165.js"
+    "static/css/main.57717dcf.css",
+    "static/js/main.ceb056ab.js"
   ]
 }
