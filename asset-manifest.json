@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/game-stopwatch/static/css/main.fa95f4ca.css",
-    "main.js": "/game-stopwatch/static/js/main.ceb056ab.js",
-    "static/js/787.dd25abc3.chunk.js": "/game-stopwatch/static/js/787.dd25abc3.chunk.js",
-    "index.html": "/game-stopwatch/index.html",
-    "main.fa95f4ca.css.map": "/game-stopwatch/static/css/main.fa95f4ca.css.map",
-    "main.ceb056ab.js.map": "/game-stopwatch/static/js/main.ceb056ab.js.map",
-    "787.dd25abc3.chunk.js.map": "/game-stopwatch/static/js/787.dd25abc3.chunk.js.map"
+    "main.css": "/static/css/main.fa95f4ca.css",
+    "main.js": "/static/js/main.92e857ce.js",
+    "static/js/787.dd25abc3.chunk.js": "/static/js/787.dd25abc3.chunk.js",
+    "index.html": "/index.html",
+    "main.fa95f4ca.css.map": "/static/css/main.fa95f4ca.css.map",
+    "main.92e857ce.js.map": "/static/js/main.92e857ce.js.map",
+    "787.dd25abc3.chunk.js.map": "/static/js/787.dd25abc3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa95f4ca.css",
-    "static/js/main.ceb056ab.js"
+    "static/js/main.92e857ce.js"
   ]
 }
