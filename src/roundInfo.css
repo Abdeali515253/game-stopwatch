@@ -1,0 +1,22 @@
+.roundInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.details {
+  margin-right: 10px;
+}
+
+.sh {
+  margin: 10px;
+  border-left: 1px solid wheat;
+}
+
+.sh-button {
+  margin-left: 10px;
+  padding: 5px;
+}

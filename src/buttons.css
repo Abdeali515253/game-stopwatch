@@ -1,0 +1,30 @@
+.buttons {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fade {
+    opacity: 0.5;
+}
+
+.button {
+    text-align: center;
+    font-size: large;
+    color: rgb(75, 63, 63);
+    border: 2px rgb(136, 122, 122) solid;
+    background-color: rgb(210, 210, 210);
+    margin: 10px;
+    margin-top: 30px;
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+
+
+.button:active {
+    background-color: rgb(169, 169, 169);
+}

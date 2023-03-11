@@ -1,0 +1,11 @@
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  border: 1px rgb(137, 133, 133) solid;
+  margin: 10px;
+  background-color: black;
+}
+

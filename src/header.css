@@ -1,0 +1,24 @@
+.header {
+    border-bottom:  1px rgb(137, 133, 133) solid;
+    display: flex;
+    margin: 15px;
+    padding-bottom: 8px;
+}
+
+.title {
+    font-size: larger;
+    flex: 1;
+    cursor: default;
+    align-self: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.icon {
+    flex: 1;
+    align-self: center;
+    cursor: default;
+
+}

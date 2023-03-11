@@ -1,0 +1,26 @@
+.popup-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    background-color: black;
+}
+
+.share-button {
+    display: flex;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+    background-color: rgb(12, 125, 29);
+    border: none;
+    color: white;
+    justify-content: center;
+}
+
+.share {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+
