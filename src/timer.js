@@ -1,7 +1,6 @@
 import './timer.css'
 
-const Timer = ({ timer, css, score, buffer, getTimeString, showShadowTime }) => {
-
+const Timer = ({ timer, css, score, buffer, getTimeString }) => {
 
     return ( 
         <div className="timer">
@@ -16,14 +15,11 @@ const Timer = ({ timer, css, score, buffer, getTimeString, showShadowTime }) => 
                     {("0" + ((timer / 10) % 100)).slice(-2)}
                 </span>
             </div>
-            {!showShadowTime && buffer !== 0 && <div className='target'>
+            {buffer !== 0 && <div className='target'>
                 target: {getTimeString((score+1)*1000-buffer)}{"-"}{getTimeString((score+1)*1000+buffer)}
             </div>}
-            {!showShadowTime && buffer === 0 && <div className='target'>
+            {buffer === 0 && <div className='target'>
                 target: {getTimeString((score+1)*1000+buffer)}
-            </div>}
-            {showShadowTime && buffer === 0 && <div className='target'>
-                +: {getTimeString(score)}
             </div>}
         </div>
     );
