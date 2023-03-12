@@ -12,7 +12,7 @@ const Timer = ({ timer, css, score, buffer, getTimeString }) => {
                     {("0" + Math.floor((timer/ 1000) % 60)).slice(-2)}.
                 </span>
                 <span className="digits mili-sec">
-                    {("0" + ((timer / 10) % 100)).slice(-2)}
+                    {("0" + Math.floor((timer / 10) % 100)).slice(-2)}
                 </span>
             </div>
             {buffer !== 0 && <div className='target'>

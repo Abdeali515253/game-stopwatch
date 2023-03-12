@@ -56,7 +56,7 @@ const Stopwatch = () => {
             clearInterval(intervalID);
             setIntervalID(null)
             let center = (score+1)*1000;
-            if(personalTimer.current > center+buffer || personalTimer.current < center-buffer){
+            if(personalTimer.current > center+buffer+9 || personalTimer.current < center-buffer){
                 setCSS("shake")
                 looseSound()
 
@@ -82,17 +82,24 @@ const Stopwatch = () => {
         }
     }, [score])
 
-    const handleStart = () => {
+    const startTime = useRef(null);
 
+    const handleStart = () => {
         if (intervalID != null) return;
-        let int = setInterval(() => {
-            personalTimer.current += 10;
+        startTime.current = Date.now() - personalTimer.current
+
+        let interval = setInterval(() => {
+            personalTimer.current = Date.now() - startTime.current;
+
+            let upperLimit = (score+1)*1000+buffer;
+            if (personalTimer.current > upperLimit+10) personalTimer.current = upperLimit+10
+
             setTimer(personalTimer.current);
 
-            let center = (score+1)*1000;
-            if(personalTimer.current > center+buffer) setRunning(false)
+            
+            if(personalTimer.current > upperLimit+9) setRunning(false)
         },10)
-        setIntervalID(int)
+        setIntervalID(interval)
         setRunning(true)
     }
 
@@ -108,6 +115,7 @@ const Stopwatch = () => {
         setGameOver(false)
         setRunning(false)
         setHighScoreChanged(false)
+        startTime.current = null
     }
 
     const changeBuffer = (e) => {
@@ -128,7 +136,7 @@ const Stopwatch = () => {
         return (
             ("0" + Math.floor((time / 60000) % 60)).slice(-2) + ":" +
             ("0" + Math.floor((time/ 1000) % 60)).slice(-2) + "." +
-            ("0" + ((time / 10) % 100)).slice(-2)
+            ("0" + Math.floor((time / 10) % 100)).slice(-2)
         )
     }
 
