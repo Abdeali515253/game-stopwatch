@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa95f4ca.css",
-    "main.js": "/static/js/main.8c240859.js",
-    "static/js/845.2ac71bff.chunk.js": "/static/js/845.2ac71bff.chunk.js",
-    "static/js/787.dd25abc3.chunk.js": "/static/js/787.dd25abc3.chunk.js",
-    "static/media/ding-100501.mp3": "/static/media/ding-100501.23e4f47ebe43d5bd032d.mp3",
-    "static/media/wrong-buzzer-6268.mp3": "/static/media/wrong-buzzer-6268.70bcf1d61a0acab0d320.mp3",
-    "index.html": "/index.html",
-    "main.fa95f4ca.css.map": "/static/css/main.fa95f4ca.css.map",
-    "main.8c240859.js.map": "/static/js/main.8c240859.js.map",
-    "845.2ac71bff.chunk.js.map": "/static/js/845.2ac71bff.chunk.js.map",
-    "787.dd25abc3.chunk.js.map": "/static/js/787.dd25abc3.chunk.js.map"
+    "main.css": "/game-stopwatch/static/css/main.fa95f4ca.css",
+    "main.js": "/game-stopwatch/static/js/main.317f6fc9.js",
+    "static/js/845.2ac71bff.chunk.js": "/game-stopwatch/static/js/845.2ac71bff.chunk.js",
+    "static/js/787.dd25abc3.chunk.js": "/game-stopwatch/static/js/787.dd25abc3.chunk.js",
+    "static/media/ding-100501.mp3": "/game-stopwatch/static/media/ding-100501.23e4f47ebe43d5bd032d.mp3",
+    "static/media/wrong-buzzer-6268.mp3": "/game-stopwatch/static/media/wrong-buzzer-6268.70bcf1d61a0acab0d320.mp3",
+    "index.html": "/game-stopwatch/index.html",
+    "main.fa95f4ca.css.map": "/game-stopwatch/static/css/main.fa95f4ca.css.map",
+    "main.317f6fc9.js.map": "/game-stopwatch/static/js/main.317f6fc9.js.map",
+    "845.2ac71bff.chunk.js.map": "/game-stopwatch/static/js/845.2ac71bff.chunk.js.map",
+    "787.dd25abc3.chunk.js.map": "/game-stopwatch/static/js/787.dd25abc3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa95f4ca.css",
-    "static/js/main.8c240859.js"
+    "static/js/main.317f6fc9.js"
   ]
 }
