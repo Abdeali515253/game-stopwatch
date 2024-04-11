@@ -2,11 +2,14 @@ import { useEffect } from 'react';
 import './App.css';
 import Stopwatch from './stopwatch';
 //import Test from './test';
-import ReactGA from 'react-ga';
+import ReactGA4 from 'react-ga4';
+const TRACKING_ID = "G-GLRPSJTREX"; 
+
 
 function App() {
+
   useEffect(() => {
-    ReactGA.pageview('/');
+    ReactGA4.initialize(TRACKING_ID);
   }, [])
 
   return (  

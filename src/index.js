@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ReactGA from 'react-ga';
-const TRACKING_ID = "UA-221431629-2"; // OUR_TRACKING_ID
+import ReactGA4 from 'react-ga4';
+const TRACKING_ID = "G-GLRPSJTREX"; // OUR_TRACKING_ID
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-ReactGA.initialize(TRACKING_ID);
+ReactGA4.initialize(TRACKING_ID);
 
 
 root.render(
@@ -22,10 +22,6 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
 const SendAnalytics = ()=> {
-  ReactGA.send({
-    hitType: "pageview",
-    page: window.location.pathname,
-  });
 }
 
 reportWebVitals(SendAnalytics);

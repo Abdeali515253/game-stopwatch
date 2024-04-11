@@ -12,7 +12,7 @@ import ding from "./ding-100501.mp3"
 import loose from "./wrong-buzzer-6268.mp3"
 
 import useSound from 'use-sound';
-
+import ReactGA4 from 'react-ga4';
 
 const Stopwatch = () => {
     const [timer, setTimer] = useState(0);
@@ -88,6 +88,14 @@ const Stopwatch = () => {
         if (intervalID != null) return;
         startTime.current = Date.now() - personalTimer.current
 
+        if(score === 0) {
+            ReactGA4.event({
+                category: "Someone Played The Game",
+                action: "Someone Played The Game",
+                label: "Someone Played The Game",
+            });
+        }
+
         let interval = setInterval(() => {
             personalTimer.current = Date.now() - startTime.current;
 
@@ -108,6 +116,7 @@ const Stopwatch = () => {
     }
 
     const handleReset = () => {
+
         setTimer(0)
         personalTimer.current = 0
         setScore(0)
